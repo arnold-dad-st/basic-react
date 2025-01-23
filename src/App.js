@@ -8,6 +8,7 @@ const Input = ({ label, initValue, error, disabled }) => {
   const handleChange = (event) => {
     setText(event.target.value);
   };
+  console.log("Render Inout element");
 
   return (
     <label>
