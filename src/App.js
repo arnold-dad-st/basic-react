@@ -9,8 +9,6 @@ const Input = ({ label, initValue, error, disabled }) => {
     setText(event.target.value);
   };
 
-  console.log("Rendered Input component");
-
   return (
     <label>
       {label}
@@ -63,8 +61,6 @@ function App() {
   const handleDateChange = (event) => {
     setDate(event.target.value);
   };
-
-  console.log("Rendered App component");
 
   const name = localStorage.getItem("name");
 
